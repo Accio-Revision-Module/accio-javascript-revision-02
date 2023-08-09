@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Revision 02</title>
+  </head>
+  <body>
+    <h1 id="heading">Heading</h1>
+    <div id="first-div">
+      <p id="first">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic repellat
+        illum, totam voluptates eos aliquam tempora. Quas magnam itaque, dolor
+        nemo laboriosam cumque neque molestiae distinctio soluta aspernatur
+        vitae exercitationem veritatis laborum corporis voluptates non placeat
+        eaque architecto tempore illo repellendus eius? Autem, voluptatum
+        architecto. Beatae ea quasi iure minus eligendi ipsam in vitae vero
+        quidem ut facilis, aliquam culpa distinctio corporis voluptate? Fugiat,
+        minus facilis quos culpa dolorum dolore incidunt laudantium aliquid
+        repudiandae eum, laborum voluptatum quisquam? Harum, repellendus
+        perferendis debitis, itaque voluptas sunt qui quam labore illo quaerat
+        facilis, magni rerum! Minima doloribus autem eius, quod aperiam tempore.
+      </p>
+      <p class="second">
+        <b>lorem</b>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Cupiditate, odit.
+      </p>
+    </div>
+
+    <div class="modal second">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt natus
+      alias asperiores nisi saepe repellat similique doloremque cum corrupti
+      veniam obcaecati, enim laborum sit ab ipsa beatae fugiat deleniti! Velit
+      eos soluta voluptatem adipisci corrupti, dicta vel voluptas corporis quod!
+      <button
+        class="second"
+        id="close-btn"
+        onclick="document.getElementById('close-btn').parentElement.style.display='none'"
+      >
+        X
+      </button>
+    </div>
+
+    <input name="name" placeholder="Enter your name" />
+
+    <hr />
+    <h1>Todo List</h1>
+
+    <ul id="todos"></ul>
+
+    <input type="text" placeholder="Add todo here" name="todo" />
+    <button onclick="addTodo()">Add</button>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
